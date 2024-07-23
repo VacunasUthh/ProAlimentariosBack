@@ -18,7 +18,7 @@
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "http://localhost:5173"
+          "value": "https://procesos-alimentarios.developers506.com"
         },
         {
           "key": "Access-Control-Allow-Methods",
