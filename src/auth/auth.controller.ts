@@ -41,7 +41,7 @@ export class AuthController {
   async prueba(
     @Req()req: RequestWithUser,
   ){
-    return this.authService.profile(req.user);
+    return "hola"
   }
 
   @Get("verifyToken")
