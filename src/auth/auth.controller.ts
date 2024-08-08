@@ -31,13 +31,13 @@ export class AuthController {
   }
   @Get("/prueba-vercel")
   async pruebavercel(){
-    return "This is a test 2"
+    return "This is a test 3 "
   }
   
   @Get("prueba")
   // @Roles(Role.ADMIN)
   // @UseGuards(AuthGuard,RolesGuard)
-  @Auth(Role.ALUMNO)
+  // @Auth(Role.ALUMNO)
   async prueba(
     @Req()req: RequestWithUser,
   ){

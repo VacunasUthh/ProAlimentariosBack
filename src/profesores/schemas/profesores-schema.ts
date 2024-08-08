@@ -12,13 +12,13 @@ export class Profesores {
     })
     nombre: string;
     @Prop({
-        required: true,
+       
         trim: true,
         unique: true,
     })
     correo: string;
     @Prop({
-        required: true,
+
         trim: true,
         unique: true
     })
